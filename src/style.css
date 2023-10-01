@@ -233,6 +233,12 @@ button:focus {
   width: 100%;
 }
 
+@media (max-width: 767px) {
+  .home-about-section {
+    margin-top: 50px;
+  }
+}
+
 .container-about {
   display: flex;
   direction: column;
@@ -514,42 +520,15 @@ button:focus {
   width: 100%;
 }
 
-/* Resume */
-.resume-section {
-  position: relative ;
-  padding-top: 110px ;
-  padding-bottom: 30px ;
-  background-image: var(--section-background-color) ;
-  color: white ;
-}
-
-.resume {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  justify-content: center !important;
-}
-
-.resume-left {
-  padding-right: 80px !important;
-}
-
-.resume-right {
-  padding-left: 80px !important;
-}
-
-@media (max-width: 767px) {
-  .resume-left {
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-  }
-
-  .resume-right {
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-  }
-}
 
 .download-button {
   border-radius: 50px !important;
   margin-right: 80%;
+}
+
+@media (max-width: 767px) {
+  .download-button {
+    margin-right: 0%;
+    margin-bottom: 10px;
+  }
 }
