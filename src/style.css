@@ -11,7 +11,7 @@ html {
     rgba(0, 2, 29, 0.863)
   );
 
-  --imp-text-color: #ff0000;
+  --imp-text-color: #1724d1;
 }
 
 .blue {
@@ -179,10 +179,6 @@ button:focus {
 .heading, .heading-name {
   font-size: 2.4em ;
   padding-left: 25px;
-}
-
-.main-name {
-  color: #4864ff !important;
 }
 
 .Typewriter__wrapper {
@@ -487,7 +483,7 @@ button:focus {
 
 .tech-icons:hover {
   overflow: hidden ;
-  border: 2px solid rgba(77, 74, 255, 0.883) ;
+  border: 2px solid rgb(0, 38, 255) ;
   .tech-title {
     opacity: 1;
   }
@@ -524,6 +520,11 @@ button:focus {
 .download-button {
   border-radius: 50px !important;
   margin-right: 80%;
+  background-color: #1724d1 !important;
+  border: none !important;
+}
+.download-button:hover {
+  background-color: #3341ff !important;
 }
 
 @media (max-width: 767px) {
