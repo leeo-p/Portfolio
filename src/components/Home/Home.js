@@ -42,7 +42,7 @@ function Home() {
 										],
 										autoStart: true,
 										loop: true,
-										deleteSpeed: 80,
+										deleteSpeed: 50,
 									}}
 								/>
 							</div>
