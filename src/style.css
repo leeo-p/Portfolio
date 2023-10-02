@@ -2,16 +2,16 @@ html {
   --section-background-color: linear-gradient(
     to bottom left,
     rgba(0, 5, 78, 0.76),
-    rgba(8, 1, 31, 0.904)
+    rgba(1, 3, 31, 0.904)
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
     rgba(0, 18, 117, 0.678),
-    rgba(3, 0, 29, 0.863)
+    rgba(0, 2, 29, 0.863)
   );
 
-  --imp-text-color: #3a2bc5;
+  --imp-text-color: #ff0000;
 }
 
 .blue {
