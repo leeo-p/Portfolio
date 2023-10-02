@@ -7,7 +7,6 @@ import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
 import Button from "react-bootstrap/Button";
-import { AiOutlineDownload } from "react-icons/ai";
 import pdf from "../../Assets/CV Léo Portet.pdf";
 
 
