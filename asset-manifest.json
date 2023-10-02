@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a758a366.css",
-    "main.js": "/Portfolio/static/js/main.fa7c8236.js",
-    "static/js/787.1297335f.chunk.js": "/Portfolio/static/js/787.1297335f.chunk.js",
-    "static/media/maggle.png": "/Portfolio/static/media/maggle.0959848db35ca78c2b78.png",
-    "static/media/moi.jpg": "/Portfolio/static/media/moi.27e06cd2fee2f8d42fe8.jpg",
-    "static/media/paularis.png": "/Portfolio/static/media/paularis.2ba5636bf472771e2258.png",
-    "static/media/home-bg2.jpg": "/Portfolio/static/media/home-bg2.acc6ad0685f0885baa75.jpg",
-    "static/media/CV Léo Portet.pdf": "/Portfolio/static/media/CV Léo Portet.fddca97baa707de3febb.pdf",
-    "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/home-main.svg": "/Portfolio/static/media/home-main.a988abfeb5b869a730d0f8ddae6f4ac5.svg",
-    "static/media/bj.png": "/Portfolio/static/media/bj.01cd9452021c884712fb.png",
-    "static/media/hld.webp": "/Portfolio/static/media/hld.ed79e0370955285b1813.webp",
-    "static/media/pre.svg": "/Portfolio/static/media/pre.77672bddcc06b356d2ba.svg",
-    "index.html": "/Portfolio/index.html",
-    "main.a758a366.css.map": "/Portfolio/static/css/main.a758a366.css.map",
-    "main.fa7c8236.js.map": "/Portfolio/static/js/main.fa7c8236.js.map",
-    "787.1297335f.chunk.js.map": "/Portfolio/static/js/787.1297335f.chunk.js.map"
+    "main.css": "/static/css/main.1d241751.css",
+    "main.js": "/static/js/main.49c7f14e.js",
+    "static/js/787.1297335f.chunk.js": "/static/js/787.1297335f.chunk.js",
+    "static/media/maggle.png": "/static/media/maggle.0959848db35ca78c2b78.png",
+    "static/media/moi.jpg": "/static/media/moi.27e06cd2fee2f8d42fe8.jpg",
+    "static/media/paularis.png": "/static/media/paularis.2ba5636bf472771e2258.png",
+    "static/media/home-bg2.jpg": "/static/media/home-bg2.acc6ad0685f0885baa75.jpg",
+    "static/media/CV Léo Portet.pdf": "/static/media/CV Léo Portet.fddca97baa707de3febb.pdf",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/home-main.svg": "/static/media/home-main.a988abfeb5b869a730d0f8ddae6f4ac5.svg",
+    "static/media/bj.png": "/static/media/bj.01cd9452021c884712fb.png",
+    "static/media/hld.webp": "/static/media/hld.ed79e0370955285b1813.webp",
+    "static/media/pre.svg": "/static/media/pre.77672bddcc06b356d2ba.svg",
+    "index.html": "/index.html",
+    "main.1d241751.css.map": "/static/css/main.1d241751.css.map",
+    "main.49c7f14e.js.map": "/static/js/main.49c7f14e.js.map",
+    "787.1297335f.chunk.js.map": "/static/js/787.1297335f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a758a366.css",
-    "static/js/main.fa7c8236.js"
+    "static/css/main.1d241751.css",
+    "static/js/main.49c7f14e.js"
   ]
 }
