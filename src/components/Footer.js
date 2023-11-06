@@ -16,7 +16,7 @@ function Footer() {
 					<ul className="footer-icons">
 						<li className="social-icons">
 						<a
-							href="https://github.com/"
+							href="https://github.com/leeo-p"
 							style={{ color: "white" }}
 							target="_blank" 
 							rel="noopener noreferrer"
@@ -26,7 +26,7 @@ function Footer() {
 						</li>
 						<li className="social-icons">
 						<a
-							href="https://www.linkedin.com/in/"
+							href="https://www.linkedin.com/in/léo-portet-4072a9297/"
 							style={{ color: "white" }}
 							target="_blank" 
 							rel="noopener noreferrer"
@@ -36,7 +36,7 @@ function Footer() {
 						</li>
 						<li className="social-icons">
 						<a
-							href="https://www.instagram.com/"
+							href="https://www.instagram.com/leo_plrs_portet"
 							style={{ color: "white" }}
 							target="_blank" 
 							rel="noopener noreferrer"

@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { DiJavascript1, DiReact, DiNodejsSmall, DiPython, DiJava, DiCss3, DiHtml5, DiMysql, DiProlog, DiPhp, DiNpm } from "react-icons/di";
 import { TbBrandSolidjs } from "react-icons/tb";
-import { SiExpress } from "react-icons/si";
+import { SiExpress, SiSpring } from "react-icons/si";
 function Techstack() {
 	return (
 		<Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -57,6 +57,10 @@ function Techstack() {
 			<Col xs={4} md={2} className="tech-icons">
 				<DiNpm />
 				<p className="tech-title">NPM</p>
+			</Col>
+			<Col xs={4} md={2} className="tech-icons">
+				<SiSpring />
+				<p className="tech-title">SPRING BOOT</p>
 			</Col>
 		</Row>
 	);

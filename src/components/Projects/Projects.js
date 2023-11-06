@@ -7,6 +7,7 @@ import Paularis from "../../Assets/Projects/paularis.png";
 import HLD from "../../Assets/Projects/hld.webp";
 import BJ from "../../Assets/Projects/bj.png"
 import Huffman from "../../Assets/Projects/h.png";
+import Feedback from "../../Assets/Projects/clk.png";
 
 function Projects() {
 	return (
@@ -19,6 +20,15 @@ function Projects() {
 					Here are a few projects I've worked on recently.
 				</p>
 				<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+					<Col md={4} className="project-card">
+						<ProjectCard
+						imgPath={Feedback}
+						isBlog={false}
+						title="Feeback - Colemak"
+						description="Project in JEE. Creation of a website to learn Colemak, a keyboard layout. Using of Spring Boot framework and MVC pattern."
+						Link="https://github.com/loouis-t/Feedback-Colemak"
+						/>
+					</Col>
 					<Col md={4} className="project-card">
 						<ProjectCard
 						imgPath={Portfolio}
