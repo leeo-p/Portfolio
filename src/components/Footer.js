@@ -15,34 +15,24 @@ function Footer() {
 				<Col md="4" className="footer-body">
 					<ul className="footer-icons">
 						<li className="social-icons">
-						<a
-							href="https://github.com/leeo-p"
-							style={{ color: "white" }}
-							target="_blank" 
-							rel="noopener noreferrer"
-						>
-							<AiFillGithub />
-						</a>
+							<a
+								href="https://github.com/leeo-p"
+								style={{ color: "white" }}
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<AiFillGithub />
+							</a>
 						</li>
 						<li className="social-icons">
-						<a
-							href="https://www.linkedin.com/in/léo-portet-4072a9297/"
-							style={{ color: "white" }}
-							target="_blank" 
-							rel="noopener noreferrer"
-						>
-							<FaLinkedinIn />
-						</a>
-						</li>
-						<li className="social-icons">
-						<a
-							href="https://www.instagram.com/leo_plrs_portet"
-							style={{ color: "white" }}
-							target="_blank" 
-							rel="noopener noreferrer"
-						>
-							<AiFillInstagram />
-						</a>
+							<a
+								href="https://www.linkedin.com/in/léo-portet-4072a9297/"
+								style={{ color: "white" }}
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<FaLinkedinIn />
+							</a>
 						</li>
 					</ul>
 				</Col>
@@ -50,7 +40,7 @@ function Footer() {
 					<h3>Copyright © {year} LP</h3>
 				</Col>
 				<Col md="4" className="footer-copywright">
-					<h3>Designed and Developed by Léo Portet</h3>
+					<h3>Designed and developed by LP</h3>
 				</Col>
 			</Row>
 		</Container>
