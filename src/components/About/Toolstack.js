@@ -68,7 +68,7 @@ function Toolstack() {
 			</Col>
 
 			<Col xs={4} md={2} className="tech-icons">
-				<img src={shuffle} alt="shuffle" className="tech-icon" width="140px" height="92px" />
+				<img src={shuffle} alt="shuffle" className="tech-icon" width="130px" height="92px" />
 				<p className="tech-title">SHUFFLE SOAR</p>
 			</Col>
 

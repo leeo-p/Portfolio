@@ -33,12 +33,12 @@ const Home = () => {
 								<strong className="main-name"> LÉO PORTET</strong>
 							</h1>
 
-							<div style={{ paddingLeft: 25, textAlign: "left" }}>
+							<div style={{ textAlign: "left" }}>
 								<Typewriter
 									className="text-typing"
 									options={{
 										strings: [
-											"Engineering student at CY Tech PAU Information Systems Engineering speciality",
+											"Engineering student at CY Tech PAU Cybersecurity speciality work-and-study program in SCC France.",
 										],
 										autoStart: true,
 										delay: 40,
