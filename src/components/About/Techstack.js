@@ -1,8 +1,10 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { DiJavascript1, DiReact, DiNodejsSmall, DiPython, DiJava, DiCss3, DiHtml5, DiMysql, DiProlog, DiPhp, DiNpm } from "react-icons/di";
+import { DiJavascript1, DiReact, DiNodejsSmall, DiPython, DiJava, DiCss3, DiHtml5, DiMysql, DiProlog, DiPhp } from "react-icons/di";
 import { TbBrandSolidjs } from "react-icons/tb";
 import { SiExpress, SiSpring } from "react-icons/si";
+import { RiNpmjsLine } from "react-icons/ri";
+
 function Techstack() {
 	return (
 		<Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -55,7 +57,7 @@ function Techstack() {
 				<p className="tech-title">MYSQL</p>
 			</Col>
 			<Col xs={4} md={2} className="tech-icons">
-				<DiNpm />
+				<RiNpmjsLine />
 				<p className="tech-title">NPM</p>
 			</Col>
 			<Col xs={4} md={2} className="tech-icons">

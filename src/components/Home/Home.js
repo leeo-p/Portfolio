@@ -3,14 +3,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import myImg from "../../Assets/moi.jpg";
 import Tilt from "react-parallax-tilt";
-import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
 import Button from "react-bootstrap/Button";
 import pdf from "../../Assets/CV Léo Portet.pdf";
 
-
-function Home() {
+const Home = () => {
 	return (
 		<section className="home-container">
 			<Container fluid className="home-section" id="home">
@@ -26,7 +25,7 @@ function Home() {
 						</Col>
 						<Col md={7} className="home-header">
 							<h1 style={{ paddingBottom: 15 }} className="heading">
-								HI !{" "}
+								HI !
 							</h1>
 
 							<h1 className="heading-name">
@@ -35,14 +34,16 @@ function Home() {
 							</h1>
 
 							<div style={{ paddingLeft: 25, textAlign: "left" }}>
-								<Typewriter className="text-typing"
+								<Typewriter
+									className="text-typing"
 									options={{
 										strings: [
 											"Engineering student at CY Tech PAU Information Systems Engineering speciality",
 										],
 										autoStart: true,
+										delay: 40,
 										loop: true,
-										deleteSpeed: 50,
+										deleteSpeed: 30,
 									}}
 								/>
 							</div>
@@ -78,7 +79,13 @@ function Home() {
 							<br />
 							<br />
 							<Row style={{ justifyContent: "center", position: "relative" }}>
-								<Button className="download-button" variant="primary" href={pdf} target="_blank" style={{ maxWidth: "150px" }}>
+								<Button
+									className="download-button"
+									variant="primary"
+									href={pdf}
+									target="_blank"
+									style={{ maxWidth: "150px" }}
+								>
 									CV
 								</Button>
 							</Row>
@@ -122,6 +129,6 @@ function Home() {
 			</Container>
 		</section>
 	);
-}
+};
 
 export default Home;
